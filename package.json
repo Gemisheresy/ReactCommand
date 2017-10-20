@@ -1,0 +1,24 @@
+{
+  "name": "react-command",
+  "version": "1.0.0",
+  "bin": {
+    "react-dev": "./bin/app.js"
+  },
+  "description": "CLI for installing all node packages required for React development including express and babel and es6 loaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "es6",
+    "development",
+    "fullstack"
+  ],
+  "author": "gemis",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
