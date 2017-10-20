@@ -8,7 +8,7 @@ const ErrorHandle = (error) => console.log(error);
 async function gitAndRename (string){
    try{
         await exec(
-            'git clone https://github.com/Gemisheresy/ReactBolier.git'
+            'git clone https://github.com/Gemisheresy/ReactBoiler.git'
             )
         await rename(
         './ReactBolier',
